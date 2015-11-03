@@ -1,10 +1,29 @@
-Inject Challenge (Rubyist Badge)
-================
+##Inject Challenge
 
-How I approached this
----------------------
+This project is from the week 2 weekend challenge of the Makers Academy course.
+I started off without considering the initial value since I thought it would
+make things more difficult. I thought that if I could get the basic function
+implemented, then it wouldn't be too difficult to add that in. The recursive
+version was not bad at all once I finished the iterative version.
 
-I started off without considering the initial value since it would make things more difficult. I thought that if I could get the basic function implemented, then it wouldn't be too difficult to add that in. The recursive version was not bad at all once I finished the iterative version.
+##Challenges
+
+The hardest part was probably understanding what inject does and how to call the
+block inside the function. The initial value was a bit tricky to implement but
+after realising I could use lazy initialisation, it was fine.
+
+##Technologies used
+
+Ruby
+
+RSpec
+
+##How to install
+
+Simply clone the repo and then run IRB in the terminal, having required the
+files.
+
+To run the tests, call rspec in the terminal.
 
 Instructions
 -------
